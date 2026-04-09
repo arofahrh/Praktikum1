@@ -22,7 +22,7 @@ Selanjutnya saya masuk ke folder project lewat terminal lalu menjalankan perinta
 ---
 
 ### 4. Mengaktifkan Mode Debugging
-File `env` diubah menjadi `.env`, lalu nilai `CI_ENVIRONMENT` diganti menjadi `development` supaya error lebih mudah diketahui saat proses coding. :contentReference[oaicite:5]{index=5}
+File `env` diubah menjadi `.env`, lalu nilai `CI_ENVIRONMENT` diganti menjadi `development` supaya error lebih mudah diketahui saat proses coding. 
 
 **Screenshot:**  
 <img width="310" height="117" alt="image" src="https://github.com/user-attachments/assets/601f0c62-2be3-41e6-8439-8c7fb86f7da1" />
@@ -36,7 +36,7 @@ Routing ditambahkan di file `app/Config/Routes.php` untuk halaman:
 - `/contact`
 - `/faqs`
 
-Route ini mengarahkan request ke controller `Page`. :contentReference[oaicite:6]{index=6}
+Route ini mengarahkan request ke controller `Page`. 
 
 **Screenshot:**  
 <img width="457" height="248" alt="image" src="https://github.com/user-attachments/assets/542c03d3-20e2-4264-a25e-fd51f6b2cfee" />
@@ -50,7 +50,7 @@ Saya membuat controller `Page.php` di folder `app/Controllers` yang berisi metho
 - `contact()`
 - `faqs()`
 
-Method ini digunakan untuk menampilkan halaman sesuai route yang telah dibuat. :contentReference[oaicite:7]{index=7}
+Method ini digunakan untuk menampilkan halaman sesuai route yang telah dibuat.
 
 **Screenshot:**  
 <img width="591" height="214" alt="image" src="https://github.com/user-attachments/assets/0c1c1942-1af9-4582-9eb5-5a917bbc48ce" />
@@ -74,7 +74,7 @@ screenshot :
 <img width="678" height="247" alt="image" src="https://github.com/user-attachments/assets/6cd794b1-efce-4bef-8f76-5d5b616845e5" />  
 ---
 ### 2. Konfigurasi Koneksi Database
-Saya mengatur koneksi database pada file `.env` agar project CodeIgniter terhubung ke MySQL. :contentReference[oaicite:3]{index=3}
+Saya mengatur koneksi database pada file `.env` agar project CodeIgniter terhubung ke MySQL. 
 Screenshot :  
 <img width="392" height="138" alt="image" src="https://github.com/user-attachments/assets/af70afcb-72f8-4783-bec8-1d7bb74c6697" />  
 
